@@ -1,3 +1,5 @@
 .DS_Store
 node_modules
 public/bundle.*
+*.env
+clippers-test-4f248e065cb0.json

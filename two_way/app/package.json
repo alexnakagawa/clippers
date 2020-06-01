@@ -23,12 +23,16 @@
     "start:dev": "sirv public --dev"
   },
   "dependencies": {
+    "@google-cloud/storage": "^5.0.1",
     "apollo-cache-inmemory": "^1.6.0",
     "apollo-client": "^2.6.0",
     "apollo-link-http": "^1.5.14",
     "apollo-link-ws": "^1.0.17",
+    "dotenv": "^8.2.0",
+    "formidable": "^1.2.2",
     "graphql": "^14.3.0",
     "graphql-tag": "^2.10.1",
+    "handsontable": "^7.4.2",
     "subscriptions-transport-ws": "^0.9.16",
     "svelte-apollo": "^0.3.0"
   }

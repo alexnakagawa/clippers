@@ -13,7 +13,7 @@ const getHeaders = () => {
 const cache = new InMemoryCache();
 
 const wsLink = new WebSocketLink({
-  uri: "ws://localhost:8080/v1/graphql",
+  uri: "ws://clippers-two-way-engine.herokuapp.com/console",
   options: {
     reconnect: true,
     lazy: true,
@@ -24,7 +24,7 @@ const wsLink = new WebSocketLink({
 });
 
 const httpLink = new HttpLink({
-  uri: "http://localhost:8080/v1/graphql",
+  uri: "https://clippers-two-way-engine.herokuapp.com/v1/graphql",
   headers: getHeaders()
 });
 
