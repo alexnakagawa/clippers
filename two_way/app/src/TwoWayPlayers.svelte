@@ -1,34 +1,15 @@
 <svelte:head>
-    <script src="node_modules/handsontable/dist/handsontable.full.min.js"></script>
-    <link href="node_modules/handsontable/dist/handsontable.full.min.css" rel="stylesheet" media="screen">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.css"> -->
 </svelte:head>
 
-<script context='module'>
+<script>
+    import { restore, query } from 'svelte-apollo';
+    // import Handsontable from "handsontable";
     import gql from 'graphql-tag';
     import { client } from './apollo';
 
     const TWO_WAY_PLAYERS = gql`{}` // TODO 
-    export async function preload() {
-        return {
-            cache: await client.query({ query: TWO_WAY_CONTRACTS })
-        };
-    }
-</script>
-
-<script>
-    import { restore, query } from 'svelte-apollo';
-  
-    export let cache;
-    restore(client, TWO_WAY_PLAYERS, cache.data);
-
     const two_way_players = query(client, { query: TWO_WAY_CONTRACTS });
-
-    var table = document.getElementById('example')
-    new Handsontable(table, {
-        data: two_way_players.result.data, // TODO: this may be incorrect
-        colHeaders: [],
-        columnSorting: true
-    })
 </script>
 
 <ul>
