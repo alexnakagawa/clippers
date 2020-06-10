@@ -23,19 +23,25 @@ mutation InsertGame($objects: [game_schedule_insert_input!]!) {
 }
 
 mutation InsertPlayer($objects: [player_insert_input!]!) {
-  insert_player(objects: $objects, on_conflict: {constraint: player_pkey, update_columns: [yearsOfService, totalDays, withNbaDays, travelWithNbaDays, activeForNbaGameDays, nonNbaDays, nonNbaGlgDays, yearsOfService]}) {
+  insert_player(objects: $objects, on_conflict: {constraint: player_pkey, update_columns: [yearsOfService]}) {
+    affected_rows
+    returning {
+      playerId
+      player
+      yearsOfService
+    }
+  }
+}
+
+mutation InsertTwoWayPlayer($objects: [two_way_player_insert_input!]!) {
+  insert_two_way_player(objects: $objects,on_conflict: {update_columns: [activeForNbaGameDays, nonNbaDays, nonNbaGlgDays, totalDays, travelWithNbaDays, withNbaDays], constraint: two_way_player_pkey}) {
     affected_rows
     returning {
       playerId
       player
       totalDays
       withNbaDays
-      travelWithNbaDays
-      activeForNbaGameDays
       nonNbaDays
-      nonNbaGlgDays
-      yearsOfService
     }
   }
 }
-

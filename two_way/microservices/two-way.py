@@ -8,6 +8,7 @@ ROOT = TREE.getroot()
 PLAYERS_ELEM = ROOT.find('two-way-extract').find('two-way-seasons') \
                    .find('two-way-season').find('two-way-players')
 
+
 def convert_player_xml_to_json(players_elem, json_name):
     json_data = []
     for player in PLAYERS_ELEM.findall('two-way-player'):
@@ -15,6 +16,7 @@ def convert_player_xml_to_json(players_elem, json_name):
         p['playerId'] = int(player.find('playerId').text)
         p['rosterFirstName'] = player.find('rosterFirstName').text
         p['rosterLastName'] = player.find('rosterLastName').text
+        p['player'] = p['rosterFirstName'] + ' ' + p['rosterLastName']
         p['activeForNbaGameDays'] = int(player.find('activeForNbaGameDays').text)
         p['nonNbaDays'] = int(player.find('nonNbaDays').text)
         p['nonNbaGlgDays'] = int(player.find('nonNbaGlgDays').text)
