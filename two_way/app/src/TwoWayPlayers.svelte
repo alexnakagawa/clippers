@@ -8,11 +8,11 @@
     import gql from 'graphql-tag';
     import { client } from './apollo';
 
-    const TWO_WAY_PLAYERS = gql`{}` // TODO 
-    const two_way_players = query(client, { query: TWO_WAY_CONTRACTS });
+    // const TWO_WAY_PLAYERS = gql`{}` // TODO 
+    // const two_way_players = query(client, { query: TWO_WAY_CONTRACTS });
 </script>
 
-<ul>
+<!-- <ul>
     {#await $two_way_players}
         <li>Loading players...</li>
     {:then result}
@@ -29,4 +29,4 @@
     {:catch error}
         <li>There was an error loading the players.</li>
     {/await}
-</ul>
+</ul> -->

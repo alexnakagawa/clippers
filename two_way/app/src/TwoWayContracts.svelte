@@ -8,8 +8,8 @@
     // import Handsontable from "handsontable";
     import { client } from './apollo';
 
-    const TWO_WAY_CONTRACTS = gql`{}`
-    const two_way_contracts = query(client, { query: TWO_WAY_CONTRACTS });
+    // const TWO_WAY_CONTRACTS = gql`{}` // TODO
+    // const two_way_contracts = query(client, { query: TWO_WAY_CONTRACTS });
 
     // var table = document.getElementById('example')
     // new Handsontable(table, {
@@ -22,10 +22,10 @@
     // })
 </script>
 
-{#await $two_way_contracts}
+<!-- {#await $two_way_contracts}
 <p>Loading contracts...</p>
 {:then result}
 <div id='example'></div>
 {:catch error}
 <p>There was an error loading the contracts.</p>
-{/await}
+{/await} -->

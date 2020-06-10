@@ -1,0 +1,41 @@
+mutation InsertTeam($objects: [team_insert_input!]!) {
+  insert_team(objects: $objects, on_conflict: {constraint: team_pkey, update_columns: teamId}) {
+    returning {
+      teamId
+      teamName
+      leagueLk
+    }
+    affected_rows
+  }
+}
+
+mutation InsertGame($objects: [game_schedule_insert_input!]!) {
+  insert_game_schedule(objects: $objects) {
+    affected_rows
+    returning {
+      gameId
+      gameDate
+      leagueLk
+      homeTeamId
+      awayTeamId
+    }
+  }
+}
+
+mutation InsertPlayer($objects: [player_insert_input!]!) {
+  insert_player(objects: $objects, on_conflict: {constraint: player_pkey, update_columns: [yearsOfService, totalDays, withNbaDays, travelWithNbaDays, activeForNbaGameDays, nonNbaDays, nonNbaGlgDays, yearsOfService]}) {
+    affected_rows
+    returning {
+      playerId
+      player
+      totalDays
+      withNbaDays
+      travelWithNbaDays
+      activeForNbaGameDays
+      nonNbaDays
+      nonNbaGlgDays
+      yearsOfService
+    }
+  }
+}
+

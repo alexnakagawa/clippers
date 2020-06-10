@@ -4,6 +4,7 @@ import commonjs from 'rollup-plugin-commonjs';
 import replace from 'rollup-plugin-replace';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
+import json from '@rollup/plugin-json';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -35,7 +36,8 @@ export default {
 		commonjs(),
 		replace({
       		'process.env.NODE_ENV': JSON.stringify('development'),
-    	}),
+		}),
+		json(),
 
 		// Watch the `public` directory and refresh the
 		// browser on changes when not in production
