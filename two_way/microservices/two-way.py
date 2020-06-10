@@ -52,7 +52,25 @@ def convert_contract_xml_to_json(players_elem, json_name):
     print('Contract JSON creation successful')
 
 
+def convert_status_xml_to_json(players_elem, json_name):
+    json_data = []
+    for player in PLAYERS_ELEM.findall('two-way-player'):
+        p = {}
+        p['playerId'] = int(player.find('playerId').text)
+        statuses_elem = player.find('two-way-statuses')
+        for status in statuses_elem:
+            p['date'] = status.find('date').text
+            p['dayOfSeason'] = int(status.find('dayOfSeason').text)
+            p['teamId'] = int(status.find('teamId').text)
+            p['twoWayDailyStatus'] = status.find('twoWayDailyStatus').text
+            p['twoWayDailyStatusLk'] = status.find('twoWayDailyStatusLk').text
+            json_data.append(p)
+    with open('../two_way_data/{}'.format(json_name), 'w') as fp:
+        json.dump(json_data, fp)
+    print('Status JSON creation successful')
+
 if __name__ == '__main__':
     print("Executing two-way.py")
     convert_player_xml_to_json(PLAYERS_ELEM, 'two-way-player.json')
     convert_contract_xml_to_json(PLAYERS_ELEM, 'two-way-contract.json')
+    convert_status_xml_to_json(PLAYERS_ELEM, 'two-way-status.json')
