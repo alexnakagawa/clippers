@@ -8,6 +8,10 @@ For development and uniformity purposes, there are several dependency requiremen
 
 ### Lineups
 
+Skip directly to the running Google Studio visualization by clicking the logo below:
+
+[![google-studio](https://www.oogstonline.com/upload/logo/Google/lockup_ic_DataStudio_horiz_544px_clr%20VIERKANT.png)](https://datastudio.google.com/u/0/reporting/1l6Gf4Qei58CDM-9BY2KXl7Jshmr0jLQ1/page/jPKSB)
+
 1. There is a `requirements.txt` file that lists the packages needed to run. Change the working directory to the project root `clippers` and run the following command to ensure that the requirements are met.
 ```{bash}
 pip install -U ./lineups/requirements.txt
@@ -21,6 +25,10 @@ Alternatively, you can open `requirements.txt` and run the usual `pip install ..
 4. The setup should now be complete. Please email [alex.nakagawa@berkeley.edu](sendto:alex.nakagawa@berkeley.edu) for any troubleshooting.
 
 ### Two Way
+
+Skip to the deployed version on Vercel's now.sh by clicking the logo below.
+
+[![vercel](https://www.underconsideration.com/brandnew/archives/vercel_logo_before_after.png)](https://clippers-two-way.now.sh/)
 
 1. Please ensure that you have at least `npm` version 6.14.4 or above installed globally before doing development. Instructions for install can be found [here](https://nodejs.org/en/download/).
 
