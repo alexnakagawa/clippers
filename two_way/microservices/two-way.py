@@ -35,7 +35,7 @@ def convert_contract_xml_to_json(players_elem, json_name):
         p = {}
         p['playerId'] = int(player.find('playerId').text)
         contracts_elem = player.find('two-way-contracts')
-        for contract in contracts_elem:
+        for contract in contracts_elem.findall('two-way-contract'):
             p['contractId'] = int(contract.find('contractId').text)
             p['contractTeamId'] = int(contract.find('contractTeamId').text)
             p['nbaDaysRemaining'] = int(contract.find('nbaDaysRemaining').text)
@@ -48,7 +48,8 @@ def convert_contract_xml_to_json(players_elem, json_name):
             p['signingDate'] = contract.find('signingDate').text
             p['signingTeamId'] = int(contract.find('signingTeamId').text)
             p['nbaServiceLimit'] = int(contract.find('nbaServiceLimit').text)
-            json_data.append(p)
+            if not p in json_data:
+                json_data.append(p)
     with open('../two_way_data/{}'.format(json_name), 'w') as fp:
         json.dump(json_data, fp)
     print('Contract JSON creation successful')
@@ -57,10 +58,10 @@ def convert_contract_xml_to_json(players_elem, json_name):
 def convert_status_xml_to_json(players_elem, json_name):
     json_data = []
     for player in PLAYERS_ELEM.findall('two-way-player'):
-        p = {}
-        p['playerId'] = int(player.find('playerId').text)
         statuses_elem = player.find('two-way-statuses')
-        for status in statuses_elem:
+        for status in statuses_elem.findall('two-way-status'):
+            p = {}
+            p['playerId'] = int(player.find('playerId').text)
             p['date'] = status.find('date').text
             p['dayOfSeason'] = int(status.find('dayOfSeason').text)
             p['teamId'] = int(status.find('teamId').text)

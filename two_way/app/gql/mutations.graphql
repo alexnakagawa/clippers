@@ -45,3 +45,31 @@ mutation InsertTwoWayPlayer($objects: [two_way_player_insert_input!]!) {
     }
   }
 }
+
+mutation InsertTwoWayContract($objects: [two_way_contract_insert_input!]!) {
+  insert_two_way_contract(objects: $objects, on_conflict: {update_columns: [nbaDaysRemaining, glgEarnedSalary, glgSalaryDays, nbaEarnedSalary, nbaSalaryDays, nbaServiceDays, unreportedDays, signingDate, signingTeamId, nbaServiceLimit], constraint: two_way_contract_pkey}) {
+    affected_rows
+    returning {
+      playerId
+      contractId
+      nbaDaysRemaining
+      signingDate
+      contractId
+      signingTeamId
+    }
+  }
+}
+
+mutation InsertTwoWayStatus($objects: [two_way_status_insert_input!]!) {
+  insert_two_way_status(objects: $objects, on_conflict: {update_columns: [dayOfSeason, teamId, twoWayDailyStatus, twoWayDailyStatusLk], constraint: two_way_status_pkey}) {
+    affected_rows
+    returning {
+      playerId
+      date
+      dayOfSeason
+      teamId
+      twoWayDailyStatus
+      twoWayDailyStatusLk
+    }
+  }
+}
