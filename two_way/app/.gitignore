@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
 public/bundle.*
+public/tailwind.css
 *.env
 clippers-test-4f248e065cb0.json
 .vercel
