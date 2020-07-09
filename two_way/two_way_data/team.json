@@ -1,1 +1,465 @@
-[{"leagueLk":"NBA","teamId":1610612737,"teamName":"Atlanta Hawks","teamNameShort":"ATL","teamNickname":"Hawks","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/ATL.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612738,"teamName":"Boston Celtics","teamNameShort":"BOS","teamNickname":"Celtics","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/BOS.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612739,"teamName":"Cleveland Cavaliers","teamNameShort":"CLE","teamNickname":"Cavaliers","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/CLE.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612740,"teamName":"New Orleans Pelicans","teamNameShort":"NOP","teamNickname":"Pelicans","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/NOP.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612741,"teamName":"Chicago Bulls","teamNameShort":"CHI","teamNickname":"Bulls","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/CHI.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612742,"teamName":"Dallas Mavericks","teamNameShort":"DAL","teamNickname":"Mavericks","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/DAL.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612743,"teamName":"Denver Nuggets","teamNameShort":"DEN","teamNickname":"Nuggets","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/DEN.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612744,"teamName":"Golden State Warriors","teamNameShort":"GSW","teamNickname":"Warriors","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/GSW.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612745,"teamName":"Houston Rockets","teamNameShort":"HOU","teamNickname":"Rockets","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/HOU.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612746,"teamName":"LA Clippers","teamNameShort":"LAC","teamNickname":"Clippers","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/LAC.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612747,"teamName":"Los Angeles Lakers","teamNameShort":"LAL","teamNickname":"Lakers","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/LAL.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612748,"teamName":"Miami Heat","teamNameShort":"MIA","teamNickname":"Heat","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/MIA.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612749,"teamName":"Milwaukee Bucks","teamNameShort":"MIL","teamNickname":"Bucks","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/MIL.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612750,"teamName":"Minnesota Timberwolves","teamNameShort":"MIN","teamNickname":"Timberwolves","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/MIN.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612751,"teamName":"Brooklyn Nets","teamNameShort":"BKN","teamNickname":"Nets","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/BKN.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612752,"teamName":"New York Knicks","teamNameShort":"NYK","teamNickname":"Knicks","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/NYK.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612753,"teamName":"Orlando Magic","teamNameShort":"ORL","teamNickname":"Magic","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/ORL.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612754,"teamName":"Indiana Pacers","teamNameShort":"IND","teamNickname":"Pacers","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/IND.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612755,"teamName":"Philadelphia 76ers","teamNameShort":"PHI","teamNickname":"76ers","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/PHI.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612756,"teamName":"Phoenix Suns","teamNameShort":"PHX","teamNickname":"Suns","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/PHX.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612757,"teamName":"Portland Trail Blazers","teamNameShort":"POR","teamNickname":"Trail Blazers","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/POR.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612758,"teamName":"Sacramento Kings","teamNameShort":"SAC","teamNickname":"Kings","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/SAC.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612759,"teamName":"San Antonio Spurs","teamNameShort":"SAS","teamNickname":"Spurs","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/SAS.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612760,"teamName":"Oklahoma City Thunder","teamNameShort":"OKC","teamNickname":"Thunder","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/OKC.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612761,"teamName":"Toronto Raptors","teamNameShort":"TOR","teamNickname":"Raptors","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/TOR.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612762,"teamName":"Utah Jazz","teamNameShort":"UTA","teamNickname":"Jazz","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/UTA.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612763,"teamName":"Memphis Grizzlies","teamNameShort":"MEM","teamNickname":"Grizzlies","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/MEM.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612764,"teamName":"Washington Wizards","teamNameShort":"WAS","teamNickname":"Wizards","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/WAS.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612765,"teamName":"Detroit Pistons","teamNameShort":"DET","teamNickname":"Pistons","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/DET.svg","nbaAffiliate":null},{"leagueLk":"NBA","teamId":1610612766,"teamName":"Charlotte Hornets","teamNameShort":"CHA","teamNickname":"Hornets","teamLogoURL":"http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/CHA.svg","nbaAffiliate":null},{"leagueLk":"GLG","teamId":1612709889,"teamName":"Oklahoma City Blue","teamNameShort":"OKL","teamNickname":"Blue","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/OKL.svg","nbaAffiliate":1610612760.0},{"leagueLk":"GLG","teamId":1612709890,"teamName":"Austin Spurs","teamNameShort":"AUS","teamNickname":"Spurs","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/AUS.svg","nbaAffiliate":1610612759.0},{"leagueLk":"GLG","teamId":1612709893,"teamName":"Canton Charge","teamNameShort":"CTN","teamNickname":"Charge","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/CTN.svg","nbaAffiliate":1610612739.0},{"leagueLk":"GLG","teamId":1612709900,"teamName":"Northern Arizona Suns","teamNameShort":"NAS","teamNickname":"Suns","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/NAS.svg","nbaAffiliate":1610612756.0},{"leagueLk":"GLG","teamId":1612709902,"teamName":"Santa Cruz Warriors","teamNameShort":"SCW","teamNickname":"Warriors","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/SCW.svg","nbaAffiliate":1610612744.0},{"leagueLk":"GLG","teamId":1612709903,"teamName":"Salt Lake City Stars","teamNameShort":"SLC","teamNickname":"Stars","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/SLC.svg","nbaAffiliate":1610612762.0},{"leagueLk":"GLG","teamId":1612709904,"teamName":"Sioux Falls Skyforce","teamNameShort":"SXF","teamNickname":"Skyforce","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/SXF.svg","nbaAffiliate":1610612748.0},{"leagueLk":"GLG","teamId":1612709905,"teamName":"South Bay Lakers","teamNameShort":"SBL","teamNickname":"Lakers","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/SBL.svg","nbaAffiliate":1610612747.0},{"leagueLk":"GLG","teamId":1612709908,"teamName":"Rio Grande Valley Vipers","teamNameShort":"RGV","teamNickname":"Valley Vipers","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/RGV.svg","nbaAffiliate":1610612745.0},{"leagueLk":"GLG","teamId":1612709909,"teamName":"Delaware Blue Coats","teamNameShort":"DEL","teamNickname":"Blue Coats","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/DEL.svg","nbaAffiliate":1610612755.0},{"leagueLk":"GLG","teamId":1612709910,"teamName":"Fort Wayne Mad Ants","teamNameShort":"FWN","teamNickname":"Mad Ants","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/FWN.svg","nbaAffiliate":1610612754.0},{"leagueLk":"GLG","teamId":1612709911,"teamName":"Iowa Wolves","teamNameShort":"IWA","teamNickname":"Wolves","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/IWA.svg","nbaAffiliate":1610612750.0},{"leagueLk":"GLG","teamId":1612709913,"teamName":"Erie BayHawks","teamNameShort":"ERI","teamNickname":"BayHawks","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/ERI.svg","nbaAffiliate":1610612740.0},{"leagueLk":"GLG","teamId":1612709914,"teamName":"Stockton Kings","teamNameShort":"STO","teamNickname":"Kings","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/STO.svg","nbaAffiliate":1610612758.0},{"leagueLk":"GLG","teamId":1612709915,"teamName":"Maine Red Claws","teamNameShort":"MNE","teamNickname":"Red Claws","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/MNE.svg","nbaAffiliate":1610612738.0},{"leagueLk":"GLG","teamId":1612709917,"teamName":"Grand Rapids Drive","teamNameShort":"GRD","teamNickname":"Drive","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/GRD.svg","nbaAffiliate":1610612765.0},{"leagueLk":"GLG","teamId":1612709918,"teamName":"Texas Legends","teamNameShort":"TEX","teamNickname":"Legends","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/TEX.svg","nbaAffiliate":1610612742.0},{"leagueLk":"GLG","teamId":1612709919,"teamName":"Westchester Knicks","teamNameShort":"WES","teamNickname":"Knicks","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/WES.svg","nbaAffiliate":1610612752.0},{"leagueLk":"GLG","teamId":1612709920,"teamName":"Raptors 905","teamNameShort":"RAP","teamNickname":"RAP","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/RAP.svg","nbaAffiliate":1610612761.0},{"leagueLk":"GLG","teamId":1612709921,"teamName":"Long Island Nets","teamNameShort":"LIN","teamNickname":"Nets","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/LIN.svg","nbaAffiliate":1610612751.0},{"leagueLk":"GLG","teamId":1612709922,"teamName":"Greensboro Swarm","teamNameShort":"GBO","teamNickname":"Swarm","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/GBO.svg","nbaAffiliate":1610612766.0},{"leagueLk":"GLG","teamId":1612709923,"teamName":"Windy City Bulls","teamNameShort":"WCB","teamNickname":"Bulls","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/WCB.svg","nbaAffiliate":1610612741.0},{"leagueLk":"GLG","teamId":1612709924,"teamName":"Agua Caliente Clippers of Ontario","teamNameShort":"ACC","teamNickname":"Clippers","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/ACC.svg","nbaAffiliate":1610612746.0},{"leagueLk":"GLG","teamId":1612709925,"teamName":"Lakeland Magic","teamNameShort":"LAK","teamNickname":"Magic","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/LAK.svg","nbaAffiliate":1610612753.0},{"leagueLk":"GLG","teamId":1612709926,"teamName":"Memphis Hustle","teamNameShort":"MHU","teamNickname":"Hustle","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/MHU.svg","nbaAffiliate":1610612763.0},{"leagueLk":"GLG","teamId":1612709927,"teamName":"Wisconsin Herd","teamNameShort":"WIS","teamNickname":"Herd","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/WIS.svg","nbaAffiliate":1610612749.0},{"leagueLk":"GLG","teamId":1612709928,"teamName":"Capital City Go-Go","teamNameShort":"CCG","teamNickname":"Go-Go","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/CCG.svg","nbaAffiliate":1610612764.0},{"leagueLk":"GLG","teamId":1612709929,"teamName":"College Park Skyhawks","teamNameShort":"CPS","teamNickname":"Skyhawks","teamLogoURL":"https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/CPS.svg","nbaAffiliate":1610612737.0}]
+[{
+    "leagueLk": "NBA",
+    "teamId": 1610612737,
+    "teamName": "Atlanta Hawks",
+    "teamNameShort": "ATL",
+    "teamNickname": "Hawks",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/ATL.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612738,
+    "teamName": "Boston Celtics",
+    "teamNameShort": "BOS",
+    "teamNickname": "Celtics",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/BOS.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612739,
+    "teamName": "Cleveland Cavaliers",
+    "teamNameShort": "CLE",
+    "teamNickname": "Cavaliers",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/CLE.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612740,
+    "teamName": "New Orleans Pelicans",
+    "teamNameShort": "NOP",
+    "teamNickname": "Pelicans",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/NOP.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612741,
+    "teamName": "Chicago Bulls",
+    "teamNameShort": "CHI",
+    "teamNickname": "Bulls",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/CHI.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612742,
+    "teamName": "Dallas Mavericks",
+    "teamNameShort": "DAL",
+    "teamNickname": "Mavericks",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/DAL.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612743,
+    "teamName": "Denver Nuggets",
+    "teamNameShort": "DEN",
+    "teamNickname": "Nuggets",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/DEN.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612744,
+    "teamName": "Golden State Warriors",
+    "teamNameShort": "GSW",
+    "teamNickname": "Warriors",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/GSW.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612745,
+    "teamName": "Houston Rockets",
+    "teamNameShort": "HOU",
+    "teamNickname": "Rockets",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/HOU.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612746,
+    "teamName": "LA Clippers",
+    "teamNameShort": "LAC",
+    "teamNickname": "Clippers",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/LAC.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612747,
+    "teamName": "Los Angeles Lakers",
+    "teamNameShort": "LAL",
+    "teamNickname": "Lakers",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/LAL.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612748,
+    "teamName": "Miami Heat",
+    "teamNameShort": "MIA",
+    "teamNickname": "Heat",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/MIA.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612749,
+    "teamName": "Milwaukee Bucks",
+    "teamNameShort": "MIL",
+    "teamNickname": "Bucks",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/MIL.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612750,
+    "teamName": "Minnesota Timberwolves",
+    "teamNameShort": "MIN",
+    "teamNickname": "Timberwolves",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/MIN.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612751,
+    "teamName": "Brooklyn Nets",
+    "teamNameShort": "BKN",
+    "teamNickname": "Nets",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/BKN.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612752,
+    "teamName": "New York Knicks",
+    "teamNameShort": "NYK",
+    "teamNickname": "Knicks",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/NYK.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612753,
+    "teamName": "Orlando Magic",
+    "teamNameShort": "ORL",
+    "teamNickname": "Magic",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/ORL.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612754,
+    "teamName": "Indiana Pacers",
+    "teamNameShort": "IND",
+    "teamNickname": "Pacers",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/IND.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612755,
+    "teamName": "Philadelphia 76ers",
+    "teamNameShort": "PHI",
+    "teamNickname": "76ers",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/PHI.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612756,
+    "teamName": "Phoenix Suns",
+    "teamNameShort": "PHX",
+    "teamNickname": "Suns",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/PHX.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612757,
+    "teamName": "Portland Trail Blazers",
+    "teamNameShort": "POR",
+    "teamNickname": "Trail Blazers",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/POR.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612758,
+    "teamName": "Sacramento Kings",
+    "teamNameShort": "SAC",
+    "teamNickname": "Kings",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/SAC.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612759,
+    "teamName": "San Antonio Spurs",
+    "teamNameShort": "SAS",
+    "teamNickname": "Spurs",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/SAS.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612760,
+    "teamName": "Oklahoma City Thunder",
+    "teamNameShort": "OKC",
+    "teamNickname": "Thunder",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/OKC.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612761,
+    "teamName": "Toronto Raptors",
+    "teamNameShort": "TOR",
+    "teamNickname": "Raptors",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/TOR.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612762,
+    "teamName": "Utah Jazz",
+    "teamNameShort": "UTA",
+    "teamNickname": "Jazz",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/UTA.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612763,
+    "teamName": "Memphis Grizzlies",
+    "teamNameShort": "MEM",
+    "teamNickname": "Grizzlies",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/MEM.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612764,
+    "teamName": "Washington Wizards",
+    "teamNameShort": "WAS",
+    "teamNickname": "Wizards",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/WAS.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612765,
+    "teamName": "Detroit Pistons",
+    "teamNameShort": "DET",
+    "teamNickname": "Pistons",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/DET.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "NBA",
+    "teamId": 1610612766,
+    "teamName": "Charlotte Hornets",
+    "teamNameShort": "CHA",
+    "teamNickname": "Hornets",
+    "teamLogoURL": "http:\/\/cdn.nba.net\/assets\/logos\/teams\/secondary\/web\/CHA.svg",
+    "nbaAffiliate": null
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709889,
+    "teamName": "Oklahoma City Blue",
+    "teamNameShort": "OKL",
+    "teamNickname": "Blue",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/OKL.svg",
+    "nbaAffiliate": 1610612760.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709890,
+    "teamName": "Austin Spurs",
+    "teamNameShort": "AUS",
+    "teamNickname": "Spurs",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/AUS.svg",
+    "nbaAffiliate": 1610612759.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709893,
+    "teamName": "Canton Charge",
+    "teamNameShort": "CTN",
+    "teamNickname": "Charge",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/CTN.svg",
+    "nbaAffiliate": 1610612739.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709900,
+    "teamName": "Northern Arizona Suns",
+    "teamNameShort": "NAS",
+    "teamNickname": "Suns",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/NAS.svg",
+    "nbaAffiliate": 1610612756.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709902,
+    "teamName": "Santa Cruz Warriors",
+    "teamNameShort": "SCW",
+    "teamNickname": "Warriors",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/SCW.svg",
+    "nbaAffiliate": 1610612744.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709903,
+    "teamName": "Salt Lake City Stars",
+    "teamNameShort": "SLC",
+    "teamNickname": "Stars",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/SLC.svg",
+    "nbaAffiliate": 1610612762.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709904,
+    "teamName": "Sioux Falls Skyforce",
+    "teamNameShort": "SXF",
+    "teamNickname": "Skyforce",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/SXF.svg",
+    "nbaAffiliate": 1610612748.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709905,
+    "teamName": "South Bay Lakers",
+    "teamNameShort": "SBL",
+    "teamNickname": "Lakers",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/SBL.svg",
+    "nbaAffiliate": 1610612747.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709908,
+    "teamName": "Rio Grande Valley Vipers",
+    "teamNameShort": "RGV",
+    "teamNickname": "Valley Vipers",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/RGV.svg",
+    "nbaAffiliate": 1610612745.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709909,
+    "teamName": "Delaware Blue Coats",
+    "teamNameShort": "DEL",
+    "teamNickname": "Blue Coats",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/DEL.svg",
+    "nbaAffiliate": 1610612755.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709910,
+    "teamName": "Fort Wayne Mad Ants",
+    "teamNameShort": "FWN",
+    "teamNickname": "Mad Ants",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/FWN.svg",
+    "nbaAffiliate": 1610612754.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709911,
+    "teamName": "Iowa Wolves",
+    "teamNameShort": "IWA",
+    "teamNickname": "Wolves",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/IWA.svg",
+    "nbaAffiliate": 1610612750.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709913,
+    "teamName": "Erie BayHawks",
+    "teamNameShort": "ERI",
+    "teamNickname": "BayHawks",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/ERI.svg",
+    "nbaAffiliate": 1610612740.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709914,
+    "teamName": "Stockton Kings",
+    "teamNameShort": "STO",
+    "teamNickname": "Kings",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/STO.svg",
+    "nbaAffiliate": 1610612758.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709915,
+    "teamName": "Maine Red Claws",
+    "teamNameShort": "MNE",
+    "teamNickname": "Red Claws",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/MNE.svg",
+    "nbaAffiliate": 1610612738.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709917,
+    "teamName": "Grand Rapids Drive",
+    "teamNameShort": "GRD",
+    "teamNickname": "Drive",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/GRD.svg",
+    "nbaAffiliate": 1610612765.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709918,
+    "teamName": "Texas Legends",
+    "teamNameShort": "TEX",
+    "teamNickname": "Legends",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/TEX.svg",
+    "nbaAffiliate": 1610612742.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709919,
+    "teamName": "Westchester Knicks",
+    "teamNameShort": "WES",
+    "teamNickname": "Knicks",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/WES.svg",
+    "nbaAffiliate": 1610612752.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709920,
+    "teamName": "Raptors 905",
+    "teamNameShort": "RAP",
+    "teamNickname": "RAP",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/RAP.svg",
+    "nbaAffiliate": 1610612761.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709921,
+    "teamName": "Long Island Nets",
+    "teamNameShort": "LIN",
+    "teamNickname": "Nets",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/LIN.svg",
+    "nbaAffiliate": 1610612751.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709922,
+    "teamName": "Greensboro Swarm",
+    "teamNameShort": "GBO",
+    "teamNickname": "Swarm",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/GBO.svg",
+    "nbaAffiliate": 1610612766.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709923,
+    "teamName": "Windy City Bulls",
+    "teamNameShort": "WCB",
+    "teamNickname": "Bulls",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/WCB.svg",
+    "nbaAffiliate": 1610612741.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709924,
+    "teamName": "Agua Caliente Clippers of Ontario",
+    "teamNameShort": "ACC",
+    "teamNickname": "Clippers",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/ACC.svg",
+    "nbaAffiliate": 1610612746.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709925,
+    "teamName": "Lakeland Magic",
+    "teamNameShort": "LAK",
+    "teamNickname": "Magic",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/LAK.svg",
+    "nbaAffiliate": 1610612753.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709926,
+    "teamName": "Memphis Hustle",
+    "teamNameShort": "MHU",
+    "teamNickname": "Hustle",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/MHU.svg",
+    "nbaAffiliate": 1610612763.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709927,
+    "teamName": "Wisconsin Herd",
+    "teamNameShort": "WIS",
+    "teamNickname": "Herd",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/WIS.svg",
+    "nbaAffiliate": 1610612749.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709928,
+    "teamName": "Capital City Go-Go",
+    "teamNameShort": "CCG",
+    "teamNickname": "Go-Go",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/CCG.svg",
+    "nbaAffiliate": 1610612764.0
+}, {
+    "leagueLk": "GLG",
+    "teamId": 1612709929,
+    "teamName": "College Park Skyhawks",
+    "teamNameShort": "CPS",
+    "teamNickname": "Skyhawks",
+    "teamLogoURL": "https:\/\/stats.gleague.nba.com\/media\/img\/teams\/logos\/CPS.svg",
+    "nbaAffiliate": 1610612737.0
+}]

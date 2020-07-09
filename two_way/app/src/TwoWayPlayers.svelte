@@ -6,20 +6,7 @@
     // import Handsontable from "handsontable";
     import gql from 'graphql-tag';
     import { client } from './apollo';
-
-    const TWO_WAY_PLAYERS = gql`{
-        two_way_headshots(order_by: {withNbaDays: desc}) {
-            playerId
-            player
-            totalDays
-            withNbaDays
-            activeForNbaGameDays
-            travelWithNbaDays
-            nonNbaDays
-            nonNbaGlgDays
-            playerImageURL
-        }
-    }`;
+    import { TWO_WAY_PLAYERS } from './queries';
 
     export async function preload() {
         return {
@@ -30,6 +17,7 @@
 
 <script>
     import { restore, query } from 'svelte-apollo';
+    import TwoWayContract from './TwoWayContract.svelte';
 
     export let cache;
     restore(client, TWO_WAY_PLAYERS, cache.data);
@@ -39,15 +27,33 @@
 
 <style>
     .player-card {
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5);
+        border-radius: 4px;
+        box-sizing: border-box;
+        cursor: pointer;
         width: 16em;
         height: 20em;
-        border-style: dashed;
         padding: 2em;
+        margin: 1em;
         display: inline-block;
-        text-align: center;
+    }
+    .player-card:hover {
+        background-color: bisque;
     }
     .player-headshot {
-        width: 10em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .player-name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+    }
+    #player-contract {
+        position: relative;
+        bottom: 0;
     }
 </style>
 
@@ -58,15 +64,18 @@
         {:then result}
             {#each result.data.two_way_headshots as player (player.playerId)}
                 <div class="player-card">
-                    <img class="player-headshot" src={player.playerImageURL} alt='Headshot of {player.player}'/>
-                    <li>Full Name: {player.player}</li>
-                    <li>Player ID: {player.playerId}</li>
-                    <li> Total Days: {player.totalDays}</li>
-                        <li>With NBA Days: {player.withNbaDays}</li>
-                        <li>Active NBA Game Days: {player.activeForNbaGameDays}</li>
-                        <li>NBA Travel Days: {player.travelWithNbaDays}</li>
-                        <li>Non-NBA Days: {player.nonNbaDays}</li>
-                        <li>Non-NBA G League Days: {player.nonNbaGlgDays}</li>
+                    <div class="player-headshot">
+                        <img src={player.playerImageURL} alt='Headshot of {player.player}' style="width:9em"/>
+                    </div>
+                    <div class="player-info">
+                        <div class="player-name">
+                            <strong>{player.player}</strong>
+                        </div>
+                        <li>Player ID: {player.playerId}</li>
+                    </div>
+                    <div id="player-contract">
+                        <TwoWayContract playerId="{player.playerId}"/>
+                    </div>
                 </div>
             {:else}
                 <li>No players found.</li>
