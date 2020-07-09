@@ -13,6 +13,9 @@
 </script>
 
 <style>
+	* {
+      font-family: "Open Sans", sans-serif;
+    }
 	/* Add a black background color to the top navigation */
 	.topnav {
 	background-color: #333;
@@ -69,5 +72,3 @@
 {:catch error}
 	<p>Error preloading teams: {error}</p>
 {/await}
-
-<!-- This is where the schedule will go -->

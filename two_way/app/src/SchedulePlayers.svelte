@@ -19,16 +19,23 @@
                                         variables: {teamId} });
     
     $: playersByTeam.refetch({ teamId });
+
+    function numberWithCommas(x) {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
 </script>
 
 <style>
+    mark {
+        background-color: rgba(255, 127, 80);
+    }
     .player-card {
         box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5);
         border-radius: 4px;
         box-sizing: border-box;
         cursor: pointer;
-        width: 16em;
-        height: 20em;
+        width: 20em;
+        height: 24em;
         padding: 2em;
         margin: 1em;
         display: inline-block;
@@ -55,18 +62,24 @@
     {#each result.data.two_way_contract_card as player (player.playerId)}
         <div class="player-card">
             <div class="player-headshot">
-                <img src={player.playerImageURL} alt='Headshot of {player.player}' style="width:9em"/>
+                <img src={player.playerImageURL} alt='Headshot of {player.player}' style="width:11em"/>
             </div>
             <div class="player-info">
                 <div class="player-name">
                     <strong>{player.player}</strong>
                 </div>
+                <ul>
                     <li>Player ID: {player.playerId}</li>
+                    <li>NBA Salary: <mark>${numberWithCommas(player.nbaEarnedSalary)}</mark></li>
+                    <li>NBA Salary Days: {player.nbaSalaryDays}</li>
+                    <li>G-League Salary: <mark>${numberWithCommas(player.glgEarnedSalary)}</mark></li>
+                    <li>G-League Salary Days: {player.glgSalaryDays}</li>
+                </ul>
             </div>
         </div>
     {/each}
     <!-- promise was fulfilled -->
 {:catch error}
     <!-- promise was rejected -->
-    oh no
+    Error: {error}
 {/await}
